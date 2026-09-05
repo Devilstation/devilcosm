@@ -1,34 +1,36 @@
-<p align="center"> <img alt="Macrocosm" src="https://github.com/syndicate-ss14/macrocosm/blob/master/Resources/Textures/_MACRO/Logo/logo.png" /></p></div>
+<div class="header" align="center">  
+<p align="center"> <img alt="Devilstation" src="https://github.com/Devilstation/imp-station-14/blob/master/Resources/Textures/Logo/logo.png" /></p>
+</div>
 
-Macrocosm is a shared development repository for Space Station 14, a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
+Devilstation is a fork of [Macrocosm](https://github.com/syndicate-ss14/macrocosm), which in itself is a fork of a [remake](https://github.com/space-wizards/space-station-14) of [Space Station 13](https://spacestation13.com/) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 
-The primary purpose of Macrocosm is to collate content from member communities (Microcosms) to facilitate ease of development and share content that is universally desired or that requires a larger maintenance burden.
+If you want to host or create content for Devilstation, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs. You should consider giving your efforts to our upstream, [Macrocosm](https://github.com/syndicate-ss14/macrocosm), beforehand. If it goes through, we'll get your content anyways!
 
 ## Links
 
-<div class="header" align="center">
+<div class="header" align="center">  
 
-[Discord](https://discord.gg/rtmPwXbvrQ) | [Docs](https://docs.macrocosm.cool) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.io/about/nightlies/)
-
-Microcosms
-
-[The Den](https://github.com/TheDenSS14) | [Funkystation](https://github.com/funky-station) | [Impstation](https://github.com/impstation)
+[Devilstation Discord](https://discord.gg/FKzYjETDrH) | [Macrocosm Docs](https://docs.macrocosm.cool) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Standalone Download](https://spacestation14.io/about/nightlies/)
 
 </div>
 
 ## Documentation/Wiki
 
-SS14's [docs site](https://docs.spacestation14.com/) has documentation on SS14's content, engine, game design, and more.
-Additionally, see these resources for license and attribution information:
-- [Robust Generic Attribution](https://docs.spacestation14.com/en/specifications/robust-generic-attribution.html)
+SS14's [docs site](https://docs.spacestation14.com/) has documentation on SS14's content, engine, game design, and more.  
+Additionally, see these resources for license and attribution information:  
+- [Robust Generic Attribution](https://docs.spacestation14.com/en/specifications/robust-generic-attribution.html)  
 - [Robust Station Image](https://docs.spacestation14.com/en/specifications/robust-station-image.html)
 
 ## Contributing
 
-We are happy to accept contributions from anybody. We've got a [list of issues](https://github.com/syndicate-ss14/macrocosm/issues) that need to be done and anybody can pick them up. Don't be afraid to ask for help either!
+As stated previously, you should first see if your efforts are better suited as contributions to Macrocosm. They've got a 
+[list of issues](https://github.com/syndicate-ss14/macrocosm/issues) that need to be done and anybody can pick them up. 
 Just make sure your changes and pull requests are in accordance with the [contribution guidelines](https://docs.macrocosm.cool/docs/Conventions/pull-requests).
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language, consider creating a fork or contributing to a fork.
+Otherwise, feel free to contribute anything you want! We are very much a "throw things at the wall and see if they stick" server, 
+and that includes content that you think might not pass the bar on other forks. Our only condition is that your content works, 
+does not give you or someone in specific an unfair advantage, and at the very least is fun or contributes to the story of the 
+round in a meaningful way. Also, we don't want any form of AI generated content. See below.
 
 ## AI-generated contributions disclaimer
 This project does not accept low-effort or wholesale AI-generated contributions. Examples include, but are not limited to:
@@ -43,14 +45,14 @@ Exceptions to this are simple tools like Rider's single-line completion feature.
 
 1. Clone this repo:
 ```shell
-git clone https://github.com/syndicate-ss14/macrocosm.git
+git clone https://github.com/Devilstation/devilcosm.git
 ```
 2. Go to the project folder and run `RUN_THIS.py` to initialize the submodules and load the engine:
 ```shell
-cd macrocosm
+cd devilcosm
 python RUN_THIS.py
 ```
-3. Compile the solution:
+3. Compile the solution:  
 
 Build the server using `dotnet build`.
 
@@ -58,9 +60,9 @@ Build the server using `dotnet build`.
 
 ## License
 
-All code for the content repository is licensed under the [MIT license](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+All code for the content repository is licensed under the [MIT license](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).  
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and copyright specified in the metadata file. For example, see the [metadata for a crowbar](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and copyright specified in the metadata file. For example, see the [metadata for a crowbar](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).  
 
 > [!NOTE]
 > Some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
